@@ -243,7 +243,7 @@ def basicSetting():
 def checkInput(checkType, input):
 	if(checkType == checkFirstWeekDate):
 		if (checkFirstWeekDate(input)):
-			info = "输入有误，请重新输入第一周的星期一日期(如：20160905):\n"
+			info = "输入有误，请重新输入第一周的星期一日期(如：20170904):\n"
 			firstWeekDate = raw_input(info)
 			checkInput(checkFirstWeekDate, firstWeekDate)
 		else:
@@ -256,7 +256,7 @@ def checkInput(checkType, input):
 		else:
 			setReminder(input)
 	else:
-		print("程序出错了……")
+		print("程序出错")
 		end
 
 def random_str(randomlength):

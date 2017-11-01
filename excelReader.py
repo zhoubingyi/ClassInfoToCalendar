@@ -43,10 +43,6 @@ def main():
 	info += "ClassTime: " + str(_colOfClassTime) + "列\n"
 	info += "Classroom: " + str(_colOfClassroom) + "列\n"
 	print (info)
-	# info += "输入 0 继续，输入 1 退出："
-	option = raw_input("输入 0 继续，输入其他内容退出：")
-	if option == "1":
-		sys.exit()
 	
 	# 开始操作
 	# 将信息加载到列表
