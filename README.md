@@ -9,16 +9,25 @@ Python 2.7+
 1、配置 classInfo Excel 表格
 
 在工作目录下创建一个 classInfo Excel 表格，表格表头有如下参数：
+
 className：课程名称
+
 startWeek：起始周
+
 endWeek：结束周
+
 weekday：星期
+
 classTime：第几节。这个参数要配合 conf_classTime.json 文件，下文会讲。
+
 classroom：教室
 
 2、配置 conf_classTime.json
+
 name：每个课程的的节数
+
 startTime：上课时间
+
 endTime：下课时间
 
 ```
