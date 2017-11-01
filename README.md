@@ -22,6 +22,7 @@ classTime：第几节。这个参数要配合 conf_classTime.json 文件，下�
 
 classroom：教室
 
+
 2、配置 conf_classTime.json
 
 name：每个课程的的节数
@@ -69,6 +70,7 @@ endTime：下课时间
 ```
 
 ```
+
 3、运行 excelReader.py 脚本
 
 终端运行：
@@ -76,6 +78,7 @@ cd 切换到文件所在目录
 python excelReader.py
 
 完成后生成一个 conf_classInfo.json 配置文件
+
 
 4、运行 main.py 脚本
 
