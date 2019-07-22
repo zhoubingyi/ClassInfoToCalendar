@@ -1,3 +1,5 @@
+项目为上学时用日历来记录课表
+
 ## 环境要求
 
 Python 2.7+
@@ -30,8 +32,6 @@ name：每个课程的的节数
 startTime：上课时间
 
 endTime：下课时间
-
-```
 
 ```
 
@@ -69,7 +69,7 @@ endTime：下课时间
 
 ```
 
-```
+
 
 3、运行 excelReader.py 脚本
 
@@ -87,3 +87,5 @@ cd 切换到文件所在目录
 python main.py
 
 完成后在工作目录下会生成一个 class.ics 文件
+
+5、打开 class.ics 文件
