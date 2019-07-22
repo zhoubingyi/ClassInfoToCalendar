@@ -34,7 +34,7 @@ startTime：上课时间
 endTime：下课时间
 
 ```
-
+```
 ```
 {
   "classTime": [
@@ -66,9 +66,8 @@ endTime：下课时间
   ]
 }
 ```
-
 ```
-
+```
 
 
 3、运行 excelReader.py 脚本
